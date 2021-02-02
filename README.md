@@ -37,3 +37,31 @@ Data for gold prices was obtained from Yahoo Finance https://uk.finance.yahoo.co
 3. time
 4. cufflinks - enhancements to plotly
 5. plotly.offline - graphing libraries
+
+#Findings
+
+There appears to be a possible increase of correlation of gold and BTC prices over time series. Whilst still weak the trend should be observed over time in a further study to see if it increases as expected.
+
+In the case of testing algorithms where confronted with previously unseen data, no algorithmic machine learning strategy works better than a simple hold strategy.
+
+#Conclusion
+
+Part 1 of this study, investigating how BTC could potentially relate to GLD as a store of value demonstrates that there is a possibility that there is an increasing correlation over time between BTC price and GLD price movements. To further improve this study, time is required to further assess the relationship in our existing simplified model; though, the addition and study of additional financial metrics that impact the GLD price, though applied to BTC could be considered - e.g. inflation metrics.
+
+Part 2 of this study deeply assessed the methods Hilpisch (2020) demonstrates in order to start identifying a potential machine learning based strategy for increasing hypothetical future returns of trading BTC, through only technical analysis and not fundamental analysis. The simple hold strategy was pitted against a second reference strategy of Fast and Slow Simple Moving Averages (SMA). Further to this Support Vector Machine and Logistic Regression strategies were added with simplified engineered features of return lags and whether a position should be short or long. The machine learning strategies all appeared to be weak once tested with a train / test split of the data and compared to a simple hold strategy.
+
+Though our findings that simply holding BTC generates effective returns and in reality with costs accrued per trade is certainly more efficient is perhaps itself a very fitting answer as to how best to trade BTC in the current environment, essentially buy and hold.
+
+It is likely that the unusual nature of BTCs recent ascent could be confounding the training and testing of our algorithms: i.e. that the real driver for BTC prices is something more fundamental than technical analysis; such as the store-of-value effect studied in part 1.
+Future improvement could include attempting the same strategies on hourly data instead of daily, perhaps here there are technical analysis relationships that are more subtle and intra day trading could benefit from a machine learning approach.
+
+References
+
+Ammous, S (2018). The Bitcoin Standard: The Decentralized Alternative to Central Banking. Wiley.
+
+Binance (2021). Crypto Currency Data: Bitcoin USD. From https://www.cryptodatadownload.com.
+
+Hilpisch, Y (2020). Python for Finance: Mastering Data Driven Finance. O'Reilly.
+
+Yahoo (2021). Gold Prices Daily. From https://uk.finance.yahoo.com.
+
