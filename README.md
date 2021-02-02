@@ -32,19 +32,19 @@ Data for gold prices was obtained from Yahoo Finance https://uk.finance.yahoo.co
 
 ## Libraries Used
 
-1. pandas
-2. numpy
-3. time
-4. cufflinks - enhancements to plotly
-5. plotly.offline - graphing libraries
+pandas
+numpy
+time
+cufflinks - enhancements to plotly
+plotly.offline - graphing libraries
 
-##Findings
+## Findings
 
 There appears to be a possible increase of correlation of gold and BTC prices over time series. Whilst still weak the trend should be observed over time in a further study to see if it increases as expected.
 
 In the case of testing algorithms where confronted with previously unseen data, no algorithmic machine learning strategy works better than a simple hold strategy.
 
-##Conclusion
+## Conclusion
 
 Part 1 of this study, investigating how BTC could potentially relate to GLD as a store of value demonstrates that there is a possibility that there is an increasing correlation over time between BTC price and GLD price movements. To further improve this study, time is required to further assess the relationship in our existing simplified model; though, the addition and study of additional financial metrics that impact the GLD price, though applied to BTC could be considered - e.g. inflation metrics.
 
@@ -55,7 +55,7 @@ Though our findings that simply holding BTC generates effective returns and in r
 It is likely that the unusual nature of BTCs recent ascent could be confounding the training and testing of our algorithms: i.e. that the real driver for BTC prices is something more fundamental than technical analysis; such as the store-of-value effect studied in part 1.
 Future improvement could include attempting the same strategies on hourly data instead of daily, perhaps here there are technical analysis relationships that are more subtle and intra day trading could benefit from a machine learning approach.
 
-##References
+## References
 
 Ammous, S (2018). The Bitcoin Standard: The Decentralized Alternative to Central Banking. Wiley.
 
