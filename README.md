@@ -2,6 +2,8 @@
 
 This project is a _data-in-context_ note book that conflates code and discussion exploring basic properties of Bitcoin and methods for trading strategies.
 
+It is referred to in this blog post: https://robert-siwicki.medium.com/bitcoin-as-a-store-of-value-and-experiments-with-algorithmic-trading-strategies-dd9794b1b0db
+
 # Introduction
 
 ## Overview
